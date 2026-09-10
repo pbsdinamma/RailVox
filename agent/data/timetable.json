@@ -1,0 +1,936 @@
+{
+  "trains": [
+    {
+      "number": "12301",
+      "name": "Howrah Rajdhani Express",
+      "origin": "New Delhi",
+      "destination": "Howrah Junction",
+      "via": ["Kanpur Central", "Allahabad Junction", "Mughal Sarai Junction", "Dhanbad Junction", "Asansol Junction"],
+      "departure": "16:50",
+      "arrival": "09:55",
+      "duration_minutes": 1025,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4350, "2A": 2560, "3A": 1780}
+    },
+    {
+      "number": "12302",
+      "name": "New Delhi Rajdhani Express",
+      "origin": "Howrah Junction",
+      "destination": "New Delhi",
+      "via": ["Asansol Junction", "Dhanbad Junction", "Mughal Sarai Junction", "Allahabad Junction", "Kanpur Central"],
+      "departure": "14:05",
+      "arrival": "10:00",
+      "duration_minutes": 1195,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4350, "2A": 2560, "3A": 1780}
+    },
+    {
+      "number": "12841",
+      "name": "Coromandel Express",
+      "origin": "Howrah Junction",
+      "destination": "Chennai Central",
+      "via": ["Kharagpur Junction", "Balasore", "Bhubaneswar", "Visakhapatnam", "Vijayawada Junction"],
+      "departure": "14:50",
+      "arrival": "17:10",
+      "duration_minutes": 1580,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 520, "3A": 1350, "2A": 1980}
+    },
+    {
+      "number": "22201",
+      "name": "Kharagpur Shatabdi Express",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": [],
+      "departure": "17:15",
+      "arrival": "19:30",
+      "duration_minutes": 135,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 540, "2S": 230}
+    },
+    {
+      "number": "12345",
+      "name": "Saraighat Express",
+      "origin": "Howrah Junction",
+      "destination": "Guwahati",
+      "via": ["Barddhaman Junction", "Malda Town", "New Jalpaiguri", "New Cooch Behar"],
+      "departure": "15:50",
+      "arrival": "10:00",
+      "duration_minutes": 1090,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 445, "3A": 1150, "2A": 1650, "1A": 2780}
+    },
+    {
+      "number": "12259",
+      "name": "Sealdah Duronto Express",
+      "origin": "Sealdah",
+      "destination": "New Delhi",
+      "via": [],
+      "departure": "20:10",
+      "arrival": "13:20",
+      "duration_minutes": 1030,
+      "days_of_run": ["Mon", "Wed", "Sat"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Duronto",
+      "pantry": true,
+      "fares": {"SL": 610, "3A": 1520, "2A": 2280, "1A": 3850}
+    },
+    {
+      "number": "12839",
+      "name": "Howrah Chennai Mail",
+      "origin": "Howrah Junction",
+      "destination": "Chennai Central",
+      "via": ["Kharagpur Junction", "Balasore", "Cuttack", "Bhubaneswar", "Visakhapatnam"],
+      "departure": "23:50",
+      "arrival": "05:00",
+      "duration_minutes": 1750,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Mail",
+      "pantry": true,
+      "fares": {"SL": 490, "3A": 1280, "2A": 1880, "1A": 3150}
+    },
+    {
+      "number": "12860",
+      "name": "Gitanjali Express",
+      "origin": "Mumbai CST",
+      "destination": "Howrah Junction",
+      "via": ["Pune Junction", "Nagpur Junction", "Bilaspur Junction", "Raipur Junction", "Jharsuguda Junction"],
+      "departure": "06:00",
+      "arrival": "14:30",
+      "duration_minutes": 1950,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 680, "3A": 1780, "2A": 2650, "1A": 4480}
+    },
+    {
+      "number": "28181",
+      "name": "Kharagpur Howrah Local Express",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": ["Midnapore", "Bankura Junction"],
+      "departure": "06:30",
+      "arrival": "10:15",
+      "duration_minutes": 225,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["2S", "SL"],
+      "type": "Express",
+      "pantry": false,
+      "fares": {"2S": 85, "SL": 165}
+    },
+    {
+      "number": "22897",
+      "name": "Kharagpur Howrah Duronto Express",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": [],
+      "departure": "18:45",
+      "arrival": "21:00",
+      "duration_minutes": 135,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A"],
+      "type": "Duronto",
+      "pantry": true,
+      "fares": {"SL": 195, "3A": 785}
+    },
+    {
+      "number": "12661",
+      "name": "Kharagpur Howrah Superfast Express",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": ["Panskura Junction"],
+      "departure": "19:30",
+      "arrival": "22:15",
+      "duration_minutes": 165,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["2S"],
+      "type": "Superfast",
+      "pantry": false,
+      "fares": {"2S": 110}
+    },
+    {
+      "number": "12863",
+      "name": "Howrah Yesvantpur Superfast Express",
+      "origin": "Howrah Junction",
+      "destination": "Yesvantpur Junction",
+      "via": ["Kharagpur Junction", "Balasore", "Bhubaneswar", "Visakhapatnam", "Vijayawada Junction"],
+      "departure": "20:35",
+      "arrival": "05:50",
+      "duration_minutes": 1995,
+      "days_of_run": ["Mon", "Wed", "Fri"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 650, "3A": 1720, "2A": 2550}
+    },
+    {
+      "number": "12501",
+      "name": "Poorva Express",
+      "origin": "Howrah Junction",
+      "destination": "New Delhi",
+      "via": ["Asansol Junction", "Dhanbad Junction", "Gaya Junction", "Mughal Sarai Junction", "Allahabad Junction"],
+      "departure": "20:15",
+      "arrival": "23:35",
+      "duration_minutes": 1640,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 595, "3A": 1480, "2A": 2180, "1A": 3720}
+    },
+    {
+      "number": "12019",
+      "name": "Howrah Ranchi Shatabdi Express",
+      "origin": "Howrah Junction",
+      "destination": "Ranchi",
+      "via": ["Kharagpur Junction", "Tatanagar Junction"],
+      "departure": "06:15",
+      "arrival": "12:05",
+      "duration_minutes": 350,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 680, "2S": 340}
+    },
+    {
+      "number": "12151",
+      "name": "Samarsata Express",
+      "origin": "Howrah Junction",
+      "destination": "Pune Junction",
+      "via": ["Kharagpur Junction", "Tatanagar Junction", "Nagpur Junction"],
+      "departure": "23:30",
+      "arrival": "06:00",
+      "duration_minutes": 1830,
+      "days_of_run": ["Tue", "Thu", "Sat"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 560, "3A": 1450, "2A": 2150}
+    },
+    {
+      "number": "12703",
+      "name": "Falaknuma Express",
+      "origin": "Howrah Junction",
+      "destination": "Secunderabad Junction",
+      "via": ["Kharagpur Junction", "Visakhapatnam"],
+      "departure": "19:55",
+      "arrival": "22:40",
+      "duration_minutes": 1605,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 530, "3A": 1380, "2A": 2050}
+    },
+    {
+      "number": "12261",
+      "name": "Howrah Duronto Express",
+      "origin": "Howrah Junction",
+      "destination": "Mumbai CST",
+      "via": [],
+      "departure": "20:00",
+      "arrival": "20:45",
+      "duration_minutes": 1485,
+      "days_of_run": ["Tue", "Fri"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Duronto",
+      "pantry": true,
+      "fares": {"SL": 720, "3A": 1850, "2A": 2780, "1A": 4650}
+    },
+    {
+      "number": "12101",
+      "name": "Jnaneswari Super Deluxe Express",
+      "origin": "Mumbai CST",
+      "destination": "Howrah Junction",
+      "via": ["Nagpur Junction", "Bilaspur Junction", "Rourkela Junction", "Tatanagar Junction", "Kharagpur Junction"],
+      "departure": "15:40",
+      "arrival": "22:30",
+      "duration_minutes": 1850,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 695, "3A": 1810, "2A": 2680, "1A": 4520}
+    },
+    {
+      "number": "12245",
+      "name": "Howrah Duronto Express (via Patna)",
+      "origin": "Howrah Junction",
+      "destination": "New Delhi",
+      "via": ["Patna Junction"],
+      "departure": "13:45",
+      "arrival": "08:30",
+      "duration_minutes": 1125,
+      "days_of_run": ["Mon", "Thu", "Sat"],
+      "classes": ["3A", "2A", "1A"],
+      "type": "Duronto",
+      "pantry": true,
+      "fares": {"3A": 1680, "2A": 2450, "1A": 4150}
+    },
+    {
+      "number": "12130",
+      "name": "Azad Hind Express",
+      "origin": "Howrah Junction",
+      "destination": "Pune Junction",
+      "via": ["Kharagpur Junction", "Tatanagar Junction", "Nagpur Junction", "Bhusaval Junction"],
+      "departure": "18:35",
+      "arrival": "02:30",
+      "duration_minutes": 1915,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 580, "3A": 1500, "2A": 2230}
+    },
+    {
+      "number": "12724",
+      "name": "Telangana Express",
+      "origin": "New Delhi",
+      "destination": "Hyderabad Deccan",
+      "via": ["Agra Cantt", "Jhansi Junction", "Bhopal Junction", "Nagpur Junction", "Balharshah"],
+      "departure": "06:50",
+      "arrival": "08:20",
+      "duration_minutes": 1530,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 510, "3A": 1320, "2A": 1950, "1A": 3280}
+    },
+    {
+      "number": "12952",
+      "name": "New Delhi Mumbai Rajdhani Express",
+      "origin": "New Delhi",
+      "destination": "Mumbai Central",
+      "via": ["Kota Junction", "Vadodara Junction", "Surat"],
+      "departure": "16:25",
+      "arrival": "08:35",
+      "duration_minutes": 970,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4150, "2A": 2440, "3A": 1670}
+    },
+    {
+      "number": "12432",
+      "name": "Trivandrum Rajdhani Express",
+      "origin": "New Delhi",
+      "destination": "Thiruvananthapuram Central",
+      "via": ["Nagpur Junction", "Ernakulam Junction"],
+      "departure": "10:55",
+      "arrival": "05:20",
+      "duration_minutes": 2665,
+      "days_of_run": ["Wed", "Fri"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 5850, "2A": 3480, "3A": 2420}
+    },
+    {
+      "number": "12627",
+      "name": "Karnataka Express",
+      "origin": "New Delhi",
+      "destination": "Bengaluru City Junction",
+      "via": ["Agra Cantt", "Jhansi Junction", "Bhopal Junction", "Raichur Junction"],
+      "departure": "21:15",
+      "arrival": "06:40",
+      "duration_minutes": 2005,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 620, "3A": 1630, "2A": 2410, "1A": 4080}
+    },
+    {
+      "number": "12621",
+      "name": "Tamil Nadu Express",
+      "origin": "New Delhi",
+      "destination": "Chennai Central",
+      "via": ["Agra Cantt", "Jhansi Junction", "Bhopal Junction", "Nagpur Junction", "Vijayawada Junction"],
+      "departure": "22:30",
+      "arrival": "07:10",
+      "duration_minutes": 1960,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 600, "3A": 1570, "2A": 2320, "1A": 3920}
+    },
+    {
+      "number": "12802",
+      "name": "Purushottam Express",
+      "origin": "New Delhi",
+      "destination": "Puri",
+      "via": ["Kanpur Central", "Allahabad Junction", "Mughal Sarai Junction", "Kharagpur Junction"],
+      "departure": "22:40",
+      "arrival": "05:15",
+      "duration_minutes": 1835,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 540, "3A": 1400, "2A": 2080, "1A": 3520}
+    },
+    {
+      "number": "12311",
+      "name": "Kalka Mail",
+      "origin": "Howrah Junction",
+      "destination": "Kalka",
+      "via": ["Asansol Junction", "Dhanbad Junction", "Mughal Sarai Junction", "Allahabad Junction", "New Delhi"],
+      "departure": "19:40",
+      "arrival": "19:45",
+      "duration_minutes": 1445,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Mail",
+      "pantry": true,
+      "fares": {"SL": 545, "3A": 1390, "2A": 2060, "1A": 3480}
+    },
+    {
+      "number": "28183",
+      "name": "Kharagpur Howrah Express",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": ["Panskura Junction"],
+      "departure": "08:00",
+      "arrival": "11:30",
+      "duration_minutes": 210,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["2S"],
+      "type": "Express",
+      "pantry": false,
+      "fares": {"2S": 75}
+    },
+    {
+      "number": "22202",
+      "name": "Howrah Kharagpur Shatabdi Express",
+      "origin": "Howrah Junction",
+      "destination": "Kharagpur Junction",
+      "via": [],
+      "departure": "06:10",
+      "arrival": "08:25",
+      "duration_minutes": 135,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 540, "2S": 230}
+    },
+    {
+      "number": "12014",
+      "name": "Amritsar Shatabdi Express",
+      "origin": "New Delhi",
+      "destination": "Amritsar Junction",
+      "via": ["Ambala Cantt Junction", "Ludhiana Junction", "Jalandhar City"],
+      "departure": "07:20",
+      "arrival": "13:30",
+      "duration_minutes": 370,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 1100, "2S": 550}
+    },
+    {
+      "number": "12002",
+      "name": "Bhopal Shatabdi Express",
+      "origin": "New Delhi",
+      "destination": "Bhopal Junction",
+      "via": ["Agra Cantt", "Gwalior Junction", "Jhansi Junction"],
+      "departure": "06:15",
+      "arrival": "14:30",
+      "duration_minutes": 495,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 1200, "2S": 600}
+    },
+    {
+      "number": "12951",
+      "name": "Mumbai Rajdhani Express",
+      "origin": "Mumbai Central",
+      "destination": "New Delhi",
+      "via": ["Surat", "Vadodara Junction", "Kota Junction"],
+      "departure": "17:00",
+      "arrival": "08:35",
+      "duration_minutes": 935,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4150, "2A": 2440, "3A": 1670}
+    },
+    {
+      "number": "12622",
+      "name": "Tamil Nadu Express (Return)",
+      "origin": "Chennai Central",
+      "destination": "New Delhi",
+      "via": ["Vijayawada Junction", "Nagpur Junction", "Bhopal Junction", "Jhansi Junction", "Agra Cantt"],
+      "departure": "22:00",
+      "arrival": "07:05",
+      "duration_minutes": 1985,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 600, "3A": 1570, "2A": 2320, "1A": 3920}
+    },
+    {
+      "number": "12903",
+      "name": "Golden Temple Mail",
+      "origin": "Mumbai Central",
+      "destination": "Amritsar Junction",
+      "via": ["Surat", "Vadodara Junction", "New Delhi"],
+      "departure": "21:30",
+      "arrival": "05:15",
+      "duration_minutes": 1905,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Mail",
+      "pantry": true,
+      "fares": {"SL": 640, "3A": 1680, "2A": 2490, "1A": 4200}
+    },
+    {
+      "number": "12625",
+      "name": "Kerala Express",
+      "origin": "New Delhi",
+      "destination": "Thiruvananthapuram Central",
+      "via": ["Nagpur Junction", "Ernakulam Junction", "Kottayam"],
+      "departure": "11:25",
+      "arrival": "19:00",
+      "duration_minutes": 2855,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 680, "3A": 1780, "2A": 2640}
+    },
+    {
+      "number": "12560",
+      "name": "Shiv Ganga Express",
+      "origin": "New Delhi",
+      "destination": "Varanasi Junction",
+      "via": ["Kanpur Central", "Lucknow", "Allahabad Junction"],
+      "departure": "18:55",
+      "arrival": "06:40",
+      "duration_minutes": 705,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 320, "3A": 830, "2A": 1240}
+    },
+    {
+      "number": "12628",
+      "name": "Karnataka Express (Return)",
+      "origin": "Bengaluru City Junction",
+      "destination": "New Delhi",
+      "via": ["Raichur Junction", "Bhopal Junction", "Jhansi Junction", "Agra Cantt"],
+      "departure": "19:20",
+      "arrival": "06:05",
+      "duration_minutes": 2085,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A", "1A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 620, "3A": 1630, "2A": 2410, "1A": 4080}
+    },
+    {
+      "number": "12305",
+      "name": "Howrah Rajdhani Express (via Patna)",
+      "origin": "New Delhi",
+      "destination": "Howrah Junction",
+      "via": ["Patna Junction", "Dhanbad Junction"],
+      "departure": "14:35",
+      "arrival": "07:55",
+      "duration_minutes": 1040,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4350, "2A": 2560, "3A": 1780}
+    },
+    {
+      "number": "12273",
+      "name": "Howrah New Delhi Duronto Express",
+      "origin": "Howrah Junction",
+      "destination": "New Delhi",
+      "via": [],
+      "departure": "20:05",
+      "arrival": "10:15",
+      "duration_minutes": 850,
+      "days_of_run": ["Tue", "Wed", "Thu", "Sat", "Sun"],
+      "classes": ["3A", "2A", "1A"],
+      "type": "Duronto",
+      "pantry": true,
+      "fares": {"3A": 1680, "2A": 2450, "1A": 4150}
+    },
+    {
+      "number": "12842",
+      "name": "Coromandel Express (Return)",
+      "origin": "Chennai Central",
+      "destination": "Howrah Junction",
+      "via": ["Vijayawada Junction", "Visakhapatnam", "Bhubaneswar", "Balasore", "Kharagpur Junction"],
+      "departure": "08:45",
+      "arrival": "11:00",
+      "duration_minutes": 1575,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 520, "3A": 1350, "2A": 1980}
+    },
+    {
+      "number": "11020",
+      "name": "Konark Express",
+      "origin": "Mumbai CST",
+      "destination": "Bhubaneswar",
+      "via": ["Pune Junction", "Secunderabad Junction", "Visakhapatnam"],
+      "departure": "14:00",
+      "arrival": "22:30",
+      "duration_minutes": 1950,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Express",
+      "pantry": true,
+      "fares": {"SL": 580, "3A": 1510, "2A": 2240}
+    },
+    {
+      "number": "12423",
+      "name": "Dibrugarh Rajdhani Express",
+      "origin": "New Delhi",
+      "destination": "Dibrugarh Town",
+      "via": ["Patna Junction", "Guwahati"],
+      "departure": "20:35",
+      "arrival": "07:40",
+      "duration_minutes": 2105,
+      "days_of_run": ["Mon", "Wed", "Thu", "Fri", "Sat"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 5250, "2A": 3120, "3A": 2180}
+    },
+    {
+      "number": "22691",
+      "name": "Bengaluru Rajdhani Express",
+      "origin": "New Delhi",
+      "destination": "Bengaluru City Junction",
+      "via": ["Secunderabad Junction"],
+      "departure": "20:50",
+      "arrival": "06:10",
+      "duration_minutes": 1960,
+      "days_of_run": ["Mon", "Wed", "Fri"],
+      "classes": ["1A", "2A", "3A"],
+      "type": "Rajdhani",
+      "pantry": true,
+      "fares": {"1A": 4780, "2A": 2840, "3A": 1980}
+    },
+    {
+      "number": "12036",
+      "name": "Pune Shatabdi Express",
+      "origin": "Mumbai CST",
+      "destination": "Pune Junction",
+      "via": ["Lonavala"],
+      "departure": "06:25",
+      "arrival": "09:50",
+      "duration_minutes": 205,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 650, "2S": 325}
+    },
+    {
+      "number": "12785",
+      "name": "Howrah Bangalore Express",
+      "origin": "Howrah Junction",
+      "destination": "Bengaluru City Junction",
+      "via": ["Kharagpur Junction", "Visakhapatnam", "Vijayawada Junction"],
+      "departure": "21:20",
+      "arrival": "05:50",
+      "duration_minutes": 1950,
+      "days_of_run": ["Mon", "Tue", "Thu", "Fri", "Sat"],
+      "classes": ["SL", "3A", "2A"],
+      "type": "Superfast",
+      "pantry": true,
+      "fares": {"SL": 660, "3A": 1740, "2A": 2580}
+    },
+    {
+      "number": "12004",
+      "name": "Lucknow Shatabdi Express",
+      "origin": "New Delhi",
+      "destination": "Lucknow",
+      "via": ["Kanpur Central"],
+      "departure": "06:10",
+      "arrival": "12:30",
+      "duration_minutes": 380,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["CC", "2S"],
+      "type": "Shatabdi",
+      "pantry": true,
+      "fares": {"CC": 950, "2S": 480}
+    },
+    {
+      "number": "28185",
+      "name": "Kharagpur Howrah Passenger",
+      "origin": "Kharagpur Junction",
+      "destination": "Howrah Junction",
+      "via": ["Midnapore", "Panskura Junction"],
+      "departure": "14:00",
+      "arrival": "18:30",
+      "duration_minutes": 270,
+      "days_of_run": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "classes": ["2S"],
+      "type": "Passenger",
+      "pantry": false,
+      "fares": {"2S": 55}
+    }
+  ],
+  "stations": {
+    "Howrah Junction": {
+      "code": "HWH",
+      "zone": "ER",
+      "aliases": ["Howrah", "Kolkata", "Calcutta", "Kolkata Howrah"]
+    },
+    "Sealdah": {
+      "code": "SDAH",
+      "zone": "ER",
+      "aliases": ["Kolkata Sealdah"]
+    },
+    "New Delhi": {
+      "code": "NDLS",
+      "zone": "NR",
+      "aliases": ["Delhi", "New Delhi Railway Station", "NDLS"]
+    },
+    "Kharagpur Junction": {
+      "code": "KGP",
+      "zone": "SER",
+      "aliases": ["Kharagpur", "KGP"]
+    },
+    "Mumbai CST": {
+      "code": "CSTM",
+      "zone": "CR",
+      "aliases": ["Mumbai", "Bombay", "CSMT", "VT", "Mumbai CSMT"]
+    },
+    "Mumbai Central": {
+      "code": "MMCT",
+      "zone": "WR",
+      "aliases": ["Mumbai Central Station"]
+    },
+    "Chennai Central": {
+      "code": "MAS",
+      "zone": "SR",
+      "aliases": ["Chennai", "Madras", "MAS"]
+    },
+    "Bengaluru City Junction": {
+      "code": "SBC",
+      "zone": "SWR",
+      "aliases": ["Bangalore", "Bengaluru", "SBC"]
+    },
+    "Yesvantpur Junction": {
+      "code": "YPR",
+      "zone": "SWR",
+      "aliases": ["Yesvantpur", "YPR"]
+    },
+    "Pune Junction": {
+      "code": "PUNE",
+      "zone": "CR",
+      "aliases": ["Pune", "Poona"]
+    },
+    "Thiruvananthapuram Central": {
+      "code": "TVC",
+      "zone": "SR",
+      "aliases": ["Trivandrum", "Thiruvananthapuram", "TVC"]
+    },
+    "Secunderabad Junction": {
+      "code": "SC",
+      "zone": "SCR",
+      "aliases": ["Secunderabad", "Hyderabad"]
+    },
+    "Hyderabad Deccan": {
+      "code": "HYB",
+      "zone": "SCR",
+      "aliases": ["Hyderabad Nampally"]
+    },
+    "Visakhapatnam": {
+      "code": "VSKP",
+      "zone": "ECoR",
+      "aliases": ["Vizag", "Visakhapatnam Junction", "VSKP"]
+    },
+    "Bhubaneswar": {
+      "code": "BBS",
+      "zone": "ECoR",
+      "aliases": ["BBS"]
+    },
+    "Puri": {
+      "code": "PURI",
+      "zone": "ECoR",
+      "aliases": []
+    },
+    "Guwahati": {
+      "code": "GHY",
+      "zone": "NFR",
+      "aliases": ["Gauhati"]
+    },
+    "Dibrugarh Town": {
+      "code": "DBRG",
+      "zone": "NFR",
+      "aliases": ["Dibrugarh"]
+    },
+    "Patna Junction": {
+      "code": "PNBE",
+      "zone": "ECR",
+      "aliases": ["Patna"]
+    },
+    "Ranchi": {
+      "code": "RNC",
+      "zone": "SER",
+      "aliases": ["Ranchi Junction"]
+    },
+    "Tatanagar Junction": {
+      "code": "TATA",
+      "zone": "SER",
+      "aliases": ["Tatanagar", "Jamshedpur"]
+    },
+    "Kanpur Central": {
+      "code": "CNB",
+      "zone": "NCR",
+      "aliases": ["Kanpur"]
+    },
+    "Lucknow": {
+      "code": "LKO",
+      "zone": "NR",
+      "aliases": ["Lucknow Junction", "Lucknow Charbagh"]
+    },
+    "Allahabad Junction": {
+      "code": "ALD",
+      "zone": "NCR",
+      "aliases": ["Allahabad", "Prayagraj", "Prayagraj Junction"]
+    },
+    "Varanasi Junction": {
+      "code": "BSB",
+      "zone": "NER",
+      "aliases": ["Varanasi", "Benaras", "Kashi"]
+    },
+    "Agra Cantt": {
+      "code": "AGC",
+      "zone": "NCR",
+      "aliases": ["Agra"]
+    },
+    "Jhansi Junction": {
+      "code": "JHS",
+      "zone": "NCR",
+      "aliases": ["Jhansi"]
+    },
+    "Bhopal Junction": {
+      "code": "BPL",
+      "zone": "WCR",
+      "aliases": ["Bhopal"]
+    },
+    "Nagpur Junction": {
+      "code": "NGP",
+      "zone": "CR",
+      "aliases": ["Nagpur"]
+    },
+    "Vijayawada Junction": {
+      "code": "BZA",
+      "zone": "SCR",
+      "aliases": ["Vijayawada", "Bezawada"]
+    },
+    "Amritsar Junction": {
+      "code": "ASR",
+      "zone": "NR",
+      "aliases": ["Amritsar"]
+    },
+    "Gwalior Junction": {
+      "code": "GWL",
+      "zone": "NCR",
+      "aliases": ["Gwalior"]
+    },
+    "Mughal Sarai Junction": {
+      "code": "MGS",
+      "zone": "ECR",
+      "aliases": ["Mughal Sarai", "Pt. Deen Dayal Upadhyaya Junction", "DDU"]
+    },
+    "Dhanbad Junction": {
+      "code": "DHN",
+      "zone": "ECR",
+      "aliases": ["Dhanbad"]
+    },
+    "Asansol Junction": {
+      "code": "ASN",
+      "zone": "ER",
+      "aliases": ["Asansol"]
+    },
+    "Balasore": {
+      "code": "BLS",
+      "zone": "SER",
+      "aliases": ["Baleshwar"]
+    },
+    "Kota Junction": {
+      "code": "KOTA",
+      "zone": "WCR",
+      "aliases": ["Kota"]
+    },
+    "Vadodara Junction": {
+      "code": "BRC",
+      "zone": "WR",
+      "aliases": ["Vadodara", "Baroda"]
+    },
+    "Surat": {
+      "code": "ST",
+      "zone": "WR",
+      "aliases": []
+    },
+    "Ernakulam Junction": {
+      "code": "ERS",
+      "zone": "SR",
+      "aliases": ["Ernakulam", "Kochi", "Cochin"]
+    },
+    "Gaya Junction": {
+      "code": "GAYA",
+      "zone": "ECR",
+      "aliases": ["Gaya"]
+    },
+    "New Jalpaiguri": {
+      "code": "NJP",
+      "zone": "NFR",
+      "aliases": ["NJP", "Siliguri"]
+    },
+    "Rourkela Junction": {
+      "code": "ROU",
+      "zone": "SER",
+      "aliases": ["Rourkela"]
+    },
+    "Bilaspur Junction": {
+      "code": "BSP",
+      "zone": "SECR",
+      "aliases": ["Bilaspur"]
+    },
+    "Cuttack": {
+      "code": "CTC",
+      "zone": "ECoR",
+      "aliases": ["Cuttack Junction"]
+    }
+  }
+}
