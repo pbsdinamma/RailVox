@@ -145,7 +145,7 @@ function VoiceSessionInner({ onDisconnect }: { onDisconnect: () => void }) {
     []
   );
 
-  useDataChannel({ onMessage: onDataReceived });
+ useDataChannel({ onMessage: onDataReceived });
 
   // Track transcriptions
   useEffect(() => {
